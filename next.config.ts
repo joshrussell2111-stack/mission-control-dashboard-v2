@@ -3,7 +3,8 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   output: 'export',
   distDir: 'dist',
-  assetPrefix: '.',
+  basePath: '/mission-control-dashboard-v2',
+  assetPrefix: '/mission-control-dashboard-v2',
   images: {
     unoptimized: true,
   },
